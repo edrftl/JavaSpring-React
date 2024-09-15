@@ -31,10 +31,7 @@ const CategoryCreatePage : React.FC = () => {
         catch(e) {
             console.log("Error", e);
         }
-
-
     }
-
 
     return (
         <>
@@ -104,6 +101,7 @@ const CategoryCreatePage : React.FC = () => {
                         >
                             <TextArea autoComplete={"description"} rows={3} />
                         </Form.Item>
+
 
 
                         <Row style={{display: 'flex', justifyContent: 'center'}}>
